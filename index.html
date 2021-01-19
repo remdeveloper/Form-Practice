@@ -9,20 +9,26 @@
 <body>
    
    
-    <form action="https://formspree.io/f/moqpreva" method="post">
-        <form>
-            <label for="Name">Name:</label>
-            <input id="Name" type="text" name="name" />
-        </form>
-        <label for="formEmail">Email</label>
-        <input name="formEmail" id="formEmail" type="email">
-        
-        <form>
-            <label for="form-message">Your message:</label>
-            <textarea id="form-message" name="message"></textarea>
-          </form>
-          <button type="submit">Submit</button>
-    </form>
+    <form
+  action="https://formspree.io/f/moqpreva"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <form>
+    <label for="Name">Name:</label>
+    <input id="Name" type="text" name="name" />
+</form>
+
+  <button type="submit">Submit</button>
+</form>
 
       
 
